@@ -1,0 +1,99 @@
+/* SignUp.js */
+.signUpTopMargin {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #F0F8FF;
+    min-height: 100vh;
+}
+
+.signUpLabelMargin {
+    padding-right: 10px;
+    padding-top: 5px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.signUpInputMargin {
+    margin-left: 30px;
+}
+
+.signUpCardHeight {
+    padding-top: 150px;
+    height: 495px;
+}
+
+#signUpImage {
+    background-image: url("../Images/signup.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.signInBtn {
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+}
+
+.signupText {
+    color: white;
+}
+
+.signUpBtn {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.border-none {
+    border: none;
+}
+
+/* SignIn.js */
+#signInImage {
+    background-image: url("../Images/signup.jpg");
+    overflow: hidden;
+    height: 400px;
+    background-size: cover;
+}
+
+.signInTopMargin {
+    padding-top: 95px;
+    padding-bottom: 95px;
+    background-color: #F0F8FF;
+    min-height: 100vh;
+}
+
+.sidebar_logo {
+    width: 150px;
+    height: 150px;
+}
+
+.sidebar_icons {
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.profileSettingsLabelMargin {
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.profile_settingBtn {
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.signinText{
+    color: white;
+    padding-top: 100px;
+}
+
+.deleteaccBtn {
+    margin-left: 20px;
+    width: 180px;
+    height: 50px;
+    border-radius: 20px;
+}
