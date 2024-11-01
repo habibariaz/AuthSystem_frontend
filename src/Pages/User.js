@@ -28,7 +28,7 @@ const User = () => {
         } else if (password !== c_password) {
             alert("Invalid Details...!!!");
         } else {
-            axios.post("http://localhost:8000/updatepassword", {
+            axios.post('https://auth-sytem-backend.vercel.app/updatepassword', {
                 email: email,
                 password: password,
                 c_password: c_password
