@@ -23,7 +23,7 @@ const SignUp = () => {
         if (name === "" || email === "" || password === "" || phone === "") {
             alert("Empty Fields...!!!")
         } else {
-            axios.post("http://localhost:8000/signup", {
+            axios.post('https://auth-sytem-backend.vercel.app/signup', {
                 name: name,
                 email: email,
                 password: password,
