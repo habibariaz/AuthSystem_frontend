@@ -20,7 +20,7 @@ const SignIn = () => {
         if (email === "" || password === "") {
             alert("Empty Fields...!!!")
         } else {
-            axios.post('https://auth-sytem-backend.vercel.app/signin", {
+            axios.post('https://auth-sytem-backend.vercel.app/signin', {
                 email: email,
                 password: password
             }).then((res) => {
