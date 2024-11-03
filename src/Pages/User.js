@@ -47,7 +47,7 @@ const User = () => {
         const confirm = window.confirm("Are you sure?");
 
         if (confirm) {
-            axios.post('http://localhost:8000/deleteuser', {
+            axios.post('https://auth-sytem-backend.vercel.app/deleteuser', {
                 email: sessionStorage.getItem("Email")
             }).then((res) => {
                 alert(res.data.message)
